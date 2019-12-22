@@ -1,0 +1,13 @@
+name: 'Migration Ids'
+description: 'Get migration ids in Pull Request'
+inputs:
+  github-token:  # id of input
+    description: 'github token for authorization'
+    required: true
+    default: ''
+outputs:
+  migration-ids: # id of output
+    description: 'migration ids in Pull Request'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
