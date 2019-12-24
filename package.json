@@ -1,0 +1,25 @@
+{
+  "name": "rails-migration-ids-in-pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotpoLtd/rails-migration-ids-in-pr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YotpoLtd/rails-migration-ids-in-pr/issues"
+  },
+  "homepage": "https://github.com/YotpoLtd/rails-migration-ids-in-pr#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0",
+    "request": "^2.81.0"
+  }
+}
