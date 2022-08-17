@@ -20,6 +20,10 @@ try {
 
         console.log("migration ids in pull request are: " + migrationIdsInPR);
         core.setOutput("migration-ids", migrationIdsInPR);
+        
+        const isSchemaFileInPR = body.some(file => file.filename.includes('db/schema.rb'));
+        console.log("schema file in pr is: " + isSchemaFileInPR);
+        core.setOutput("schema-rb-in-pr", isSchemaFileInPR);
     });
 
 } catch (error) {
